@@ -1,6 +1,7 @@
 # AddressFinder
 a simple android class that find complete address(City, pincode, country, address line) from given address or latitude and longitude. 
 
+
 //to get address from latitude and longitude
         new AddressFinder(28.623624, 77.058628) {
             @Override
@@ -8,8 +9,11 @@ a simple android class that find complete address(City, pincode, country, addres
                 Log.d(TAG, "onGetAddress: " + address.toString());
             }
         }.execute();
+        
 
-        //OR to get address from address text use limke this
+        OR 
+        
+        //to get address from address text use limke this
         new AddressFinder("Uttam nagar, new delhi") {
             @Override
             public void onGetAddress(Address address) {
