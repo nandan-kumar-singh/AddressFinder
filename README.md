@@ -3,6 +3,7 @@ a simple android class that find complete address(City, pincode, country, addres
 
 
 //to get address from latitude and longitude
+```
         new AddressFinder(28.623624, 77.058628) {
             @Override
             public void onGetAddress(Address address) {
@@ -20,7 +21,7 @@ a simple android class that find complete address(City, pincode, country, addres
                 Log.d(TAG, "onGetAddress: " + address.toString());
             }
         }.execute();
-        
+  ```      
         
 the output result is :-
 
